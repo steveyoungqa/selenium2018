@@ -1,0 +1,135 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Framework example",
+        "description": "",
+        "id": "bbc-homepage-for-framework-example;framework-example",
+        "after": [
+          {
+            "result": {
+              "duration": 3109920664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2018976726,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am using the \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 16
+                }
+              ],
+              "location": "homePageSteps.iAmUsingTheBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1249962732,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the \"https://www.bbc.co.uk/\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bbc.co.uk/",
+                  "offset": 13
+                }
+              ],
+              "location": "homePageSteps.iAmOnTheWebsite(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1379592737,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sport section using a CSS Path",
+            "match": {
+              "location": "homePageSteps.iSelectTheSportSectionUsingACSSPath()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 950348532,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the Football section using an Xpath with Span text",
+            "match": {
+              "location": "homePageSteps.iSelectTheFootballSectionUsingAnXpathWithSpanText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702161213,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select the \"Tables\" section using an Xpath with Text Contains",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tables",
+                  "offset": 14
+                }
+              ],
+              "location": "homePageSteps.iSelectTheSectionUsingAnXpathWithTextContains(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 950323642,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I search for the Team \"Crystal Palace\" using an ID locator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Crystal Palace",
+                  "offset": 23
+                }
+              ],
+              "location": "homePageSteps.iSearchForTheTeamUsingAnIDLocator(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "BBC HomePage for Framework example",
+    "description": "",
+    "id": "bbc-homepage-for-framework-example",
+    "keyword": "Feature",
+    "uri": "HomePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@chrome"
+      }
+    ]
+  }
+]
